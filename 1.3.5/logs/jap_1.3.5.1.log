@@ -1,0 +1,48 @@
+# IPython log file
+
+type('tr' + "y this")
+#[Out]# <type 'str'>
+type('tr' + 5)
+slogan = 'My school is the best'
+ slogan[0]
+#[Out]# 'M'
+slogan[2]
+#[Out]# ' '
+slogan[8]
+#[Out]# 'l'
+slogan[-7]
+#[Out]# 'h'
+slogan[26]
+slogan[0:5]
+#[Out]# 'My sc'
+slogan[:5]
+#[Out]# 'My sc'
+slogan[17:21]
+#[Out]# 'best'
+slogan[17:]
+#[Out]# 'best'
+logan[:13] + 'awesome!'
+slogan[:13] + 'awesome!'
+#[Out]# 'My school is awesome!'
+slogan[:13] + 'so cool!'
+#[Out]# 'My school is so cool!'
+activity = 'theater'
+len(activity)
+#[Out]# 7
+activity[0 : len(activity)-1]
+#[Out]# 'theate'
+%logstart
+%logstart -ort 1.3.5/logs/jap_1.3.5.1.log
+%logstop
+# Mon, 07 Jan 2019 17:39:50
+'test goo' in 'Greatest good for the greatest number!'
+#[Out]# True
+# Mon, 07 Jan 2019 17:49:07
+how_eligible('This? "Yes." No, not really!')
+# Mon, 07 Jan 2019 17:49:49
+%run 1.3.5/Jap_1.3.5.py
+# Mon, 07 Jan 2019 17:49:54
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 3
+# Mon, 07 Jan 2019 17:51:25
+%logstop

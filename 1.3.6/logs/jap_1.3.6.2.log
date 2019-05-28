@@ -1,0 +1,166 @@
+# IPython log file
+
+%run 1.3.5/Jap_1.3.5.py
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 4
+how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+%run 1.3.5/Jap_1.3.5.py
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+%run 1.3.5/Jap_1.3.5.py
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 3
+%run 1.3.5/Jap_1.3.5.py
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 3
+%run 1.3.5/Jap_1.3.5.py
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 4
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+%run 1.3.5/Jap_1.3.5.py
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 1
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 1
+%run 1.3.5/Jap_1.3.5.py
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+%run 1.3.5/Jap_1.3.5.py
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+%run 1.3.5/Jap_1.3.5.py
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 4
+#1.3.5 Function Test
+print(how_eligible('This? "Yes." No, not really!'))
+print(how_eligible('Really, not a compound sentence.'))
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+#1.3.5 Function Test
+print(how_eligible('This? "Yes." No, not really!'))
+print(how_eligible('Really, not a compound sentence.'))
+%run 1.3.5/Jap_1.3.5.py
+#1.3.5 Function Test
+print(how_eligible('This? "Yes." No, not really!'))
+print(how_eligible('Really, not a compound sentence.'))
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%logstart -ort 1.3.5/logs/jap_1.3.5.2.log
+%logstop
+# Wed, 09 Jan 2019 17:52:15
+%run 1.3.5/Jap_1.3.5.py
+# Wed, 09 Jan 2019 17:52:37
+%run 1.3.5/Jap_1.3.5.py
+# Wed, 09 Jan 2019 17:52:41
+%run 1.3.5/Jap_1.3.5.py
+# Wed, 09 Jan 2019 17:52:53
+%run 1.3.5/Jap_1.3.5.py
+# Wed, 09 Jan 2019 17:52:57
+%run 1.3.5/Jap_1.3.5.py
+# Wed, 09 Jan 2019 17:54:21
+values = ['a', 'b', 3]
+# Wed, 09 Jan 2019 17:57:29
+ values[2] = '3'
+# Wed, 09 Jan 2019 17:57:44
+ values[2] == 3
+#[Out]# False
+# Wed, 09 Jan 2019 18:02:19
+values = values + [4, 5]
+# Wed, 09 Jan 2019 18:02:22
+values
+#[Out]# ['a', 'b', '3', 4, 5]
+# Wed, 09 Jan 2019 18:02:31
+values.append([6, 7])
+# Wed, 09 Jan 2019 18:02:34
+values
+#[Out]# ['a', 'b', '3', 4, 5, [6, 7]]
+# Wed, 09 Jan 2019 18:03:56
+ values = values + 5
+# Wed, 09 Jan 2019 18:05:52
+values = values + [5,6]
+# Wed, 09 Jan 2019 18:05:55
+values
+#[Out]# ['a', 'b', '3', 4, 5, [6, 7], 5, 6]
+# Wed, 09 Jan 2019 18:08:03
+random.choice(values)
+# Wed, 09 Jan 2019 18:08:27
+%run 1.3.6/Jap_1.3.6.py
+# Wed, 09 Jan 2019 18:08:31
+random.choice(values)
+# Wed, 09 Jan 2019 18:11:10
+%run 1.3.6/Jap_1.3.6.py
+# Wed, 09 Jan 2019 18:11:12
+random.choice(values)
+#[Out]# 'a'
+# Wed, 09 Jan 2019 18:11:21
+random.choice(values)
+#[Out]# '3'
+# Wed, 09 Jan 2019 18:11:30
+random.randint(5,8)
+#[Out]# 5
+# Wed, 09 Jan 2019 18:11:39
+random.uniform(5,8)
+#[Out]# 6.599949166338513
+# Wed, 09 Jan 2019 18:11:41
+random.uniform(5,8)
+#[Out]# 7.275408398960044
+# Wed, 09 Jan 2019 18:11:43
+random.randint(5,8)
+#[Out]# 6
+# Wed, 09 Jan 2019 18:11:44
+random.randint(5,8)
+#[Out]# 6
+# Wed, 09 Jan 2019 18:11:47
+random.choice(values)
+#[Out]# 'b'
+# Wed, 09 Jan 2019 18:17:47
+roll_two_dice()
+# Wed, 09 Jan 2019 18:17:53
+%run 1.3.6/Jap_1.3.6.py
+# Wed, 09 Jan 2019 18:17:57
+roll_two_dice()
+# Wed, 09 Jan 2019 18:18:09
+roll_two_dice()
+# Wed, 09 Jan 2019 18:18:15
+%run 1.3.6/Jap_1.3.6.py
+# Wed, 09 Jan 2019 18:18:17
+roll_two_dice()
+# Wed, 09 Jan 2019 18:18:20
+roll_two_dice()
+# Wed, 09 Jan 2019 18:18:22
+roll_two_dice()
+# Wed, 09 Jan 2019 18:18:23
+roll_two_dice()
+# Wed, 09 Jan 2019 18:18:27
+roll_two_dice()
+# Wed, 09 Jan 2019 18:18:28
+roll_two_dice()
+# Wed, 09 Jan 2019 18:20:12
+%run 1.3.6/Jap_1.3.6.py
+# Wed, 09 Jan 2019 18:20:17
+%run 1.3.6/Jap_1.3.6.py
+# Wed, 09 Jan 2019 18:20:27
+%run 1.3.6/Jap_1.3.6.py
+# Wed, 09 Jan 2019 18:20:45
+%run 1.3.6/Jap_1.3.6.py
+# Wed, 09 Jan 2019 18:20:52
+%run 1.3.6/Jap_1.3.6.py
+# Wed, 09 Jan 2019 18:21:10
+%run 1.3.6/Jap_1.3.6.py

@@ -1,0 +1,12 @@
+# IPython log file
+
+# Mon, 04 Mar 2019 17:43:59
+ls
+# Mon, 04 Mar 2019 17:44:03
+cd 1.4.7
+# Mon, 04 Mar 2019 17:44:12
+cd Project_images
+# Mon, 04 Mar 2019 17:44:27
+%run ../Jap_Chon_1.4.7.py
+# Mon, 04 Mar 2019 17:49:44
+%logstop

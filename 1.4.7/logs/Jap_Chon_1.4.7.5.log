@@ -1,0 +1,18 @@
+# IPython log file
+
+%logstart -ort 1.4.7/logs/Jap_Chon_1.4.7.4.logladsa=ada=das0=sa0
+%logstop
+# Mon, 11 Mar 2019 16:26:47
+cd 1.4.7
+# Mon, 11 Mar 2019 16:26:56
+cd Project_images
+# Mon, 11 Mar 2019 16:29:30
+%run ../Jap_Chon_1.4.7.py
+# Mon, 11 Mar 2019 16:32:54
+%run ../Jap_Chon_1.4.7.py
+# Mon, 11 Mar 2019 16:33:34
+%run ../Jap_Chon_1.4.7.py
+# Mon, 11 Mar 2019 16:38:42
+%run ../Jap_Chon_1.4.7.py
+# Mon, 11 Mar 2019 16:40:45
+%run ../Jap_Chon_1.4.7.py

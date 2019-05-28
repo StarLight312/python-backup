@@ -1,0 +1,100 @@
+# IPython log file
+
+%logstart -ort 1.3.2/logs/Last_1.3.2.1.log
+%logstart -ort 1.3.2/logs/Last_1.3.2.1.log
+#Nicholas Jap 1.3.2 IPython Log
+5+3
+#[Out]# 8
+7*2
+#[Out]# 14
+7*2.
+#[Out]# 14.0
+%logstop
+# Thu, 06 Dec 2018 17:09:25
+plt.hist(a)
+# Thu, 06 Dec 2018 17:10:38
+import matplotlib
+# Thu, 06 Dec 2018 17:11:23
+matplotlib.use("Agg")
+# Thu, 06 Dec 2018 17:12:00
+import matplotlib.pyplot as plt
+# Thu, 06 Dec 2018 17:12:49
+import numpy as np
+# Thu, 06 Dec 2018 17:13:45
+a = np.random.randn(10000)\
+k
+# Thu, 06 Dec 2018 17:14:00
+ a = np.random.randn(10000)
+# Thu, 06 Dec 2018 17:14:15
+plt.hist(a)
+#[Out]# (array([   51.,   221.,   813.,  1817.,  2691.,  2340.,  1425.,   494.,
+#[Out]#          132.,    16.]),
+#[Out]#  array([-3.31416601, -2.62339804, -1.93263006, -1.24186209, -0.55109411,
+#[Out]#         0.13967386,  0.83044183,  1.52120981,  2.21197778,  2.90274576,
+#[Out]#         3.59351373]),
+#[Out]#  <a list of 10 Patch objects>)
+# Thu, 06 Dec 2018 17:14:55
+plt.savefig('1.3.2/Histogram')
+# Thu, 06 Dec 2018 17:16:41
+#5. This code imported an png file and listed the values in the histogram as well as make a new file in the 1.3.2 folder called Historgram.png 
+# Thu, 06 Dec 2018 17:24:46
+#7a. When we use just integers then the product will be an integer. But if an integer is being multiplied by a float, then the product will also be a float as well
+# Thu, 06 Dec 2018 17:31:52
+#7b. Int/int returns an integer
+# Thu, 06 Dec 2018 17:31:55
+1.0 = 1
+# Thu, 06 Dec 2018 17:32:08
+1.0 == 1
+#[Out]# True
+# Thu, 06 Dec 2018 17:33:01
+is 1.0 == 1
+# Thu, 06 Dec 2018 17:34:57
+# 7.b An int/float however, returns a float
+# Thu, 06 Dec 2018 17:36:12
+2/3.=
+# Thu, 06 Dec 2018 17:36:16
+2/3.
+#[Out]# 0.6666666666666666
+# Thu, 06 Dec 2018 17:36:19
+2/3
+#[Out]# 0
+# Thu, 06 Dec 2018 17:40:39
+# 8. Assignment
+# Thu, 06 Dec 2018 17:40:58
+student_age = 16
+# Thu, 06 Dec 2018 17:41:13
+a = 2
+# Thu, 06 Dec 2018 17:41:39
+#9 
+# Thu, 06 Dec 2018 17:41:45
+a
+#[Out]# 2
+# Thu, 06 Dec 2018 17:41:50
+a*3
+#[Out]# 6
+# Thu, 06 Dec 2018 17:41:58
+a ** 3
+#[Out]# 8
+# Thu, 06 Dec 2018 17:42:09
+23 ** 43
+#[Out]# 35834136918934220777541995677272642015423987712183913488967L
+# Thu, 06 Dec 2018 17:42:42
+# 10
+# Thu, 06 Dec 2018 17:42:54
+abs(-7)
+#[Out]# 7
+# Thu, 06 Dec 2018 17:44:43
+add_tip(5, 50)
+# Thu, 06 Dec 2018 17:45:45
+add_tip(5, 50)
+# Thu, 06 Dec 2018 17:46:05
+%run 1.3.2/Last_1.3.2.py
+# Thu, 06 Dec 2018 17:46:26
+%run 1.3.2/Jap_1.3.2.py
+# Thu, 06 Dec 2018 17:46:34
+add_tip(5, 50)
+#[Out]# 255
+# Thu, 06 Dec 2018 17:49:43
+#11 In the code editor you are able to type up your whole code and is useful for codes that take up more than one line. The python shell is able to check frequently for errors and if it functions properly.
+# Thu, 06 Dec 2018 17:50:25
+%logstop

@@ -1,0 +1,66 @@
+# IPython log file
+
+%run 1.3.5/Jap_1.3.5.py
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 4
+how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+%run 1.3.5/Jap_1.3.5.py
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+%run 1.3.5/Jap_1.3.5.py
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 3
+%run 1.3.5/Jap_1.3.5.py
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 3
+%run 1.3.5/Jap_1.3.5.py
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 4
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+%run 1.3.5/Jap_1.3.5.py
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 1
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 1
+%run 1.3.5/Jap_1.3.5.py
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+%run 1.3.5/Jap_1.3.5.py
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+%run 1.3.5/Jap_1.3.5.py
+ how_eligible('Really, not a compound sentence.')
+#[Out]# 4
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 4
+#1.3.5 Function Test
+print(how_eligible('This? "Yes." No, not really!'))
+print(how_eligible('Really, not a compound sentence.'))
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+#1.3.5 Function Test
+print(how_eligible('This? "Yes." No, not really!'))
+print(how_eligible('Really, not a compound sentence.'))
+%run 1.3.5/Jap_1.3.5.py
+#1.3.5 Function Test
+print(how_eligible('This? "Yes." No, not really!'))
+print(how_eligible('Really, not a compound sentence.'))
+%run 1.3.5/Jap_1.3.5.py
+%run 1.3.5/Jap_1.3.5.py
+# Tue, 08 Jan 2019 17:29:35
+%logstop

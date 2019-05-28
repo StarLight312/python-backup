@@ -1,0 +1,132 @@
+# IPython log file
+
+%logstart -ort 1.3.2/logs/Last_1.3.2.1.log
+%logstart -ort 1.3.2/logs/Last_1.3.2.1.log
+#Nicholas Jap 1.3.2 IPython Log
+5+3
+#[Out]# 8
+7*2
+#[Out]# 14
+7*2.
+#[Out]# 14.0
+%logstop
+%logstart -ort 1.3.2/logs/Last_1.3.2.1.log
+plt.hist(a)
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import numpy as np
+a = np.random.randn(10000)\
+k
+ a = np.random.randn(10000)
+plt.hist(a)
+#[Out]# (array([   51.,   221.,   813.,  1817.,  2691.,  2340.,  1425.,   494.,
+#[Out]#          132.,    16.]), array([-3.31416601, -2.62339804, -1.93263006, -1.24186209, -0.55109411,
+#[Out]#         0.13967386,  0.83044183,  1.52120981,  2.21197778,  2.90274576,
+#[Out]#         3.59351373]), <a list of 10 Patch objects>)
+plt.savefig('1.3.2/Histogram')
+#5. This code imported an png file and listed the values in the histogram as well as make a new file in the 1.3.2 folder called Historgram.png
+#7a. When we use just integers then the product will be an integer. But if an integer is being multiplied by a float, then the product will also be a float as well
+#7b. Int/int returns an integer
+1.0 = 1
+1.0 == 1
+#[Out]# True
+is 1.0 == 1
+# 7.b An int/float however, returns a float
+2/3.=
+2/3.
+#[Out]# 0.6666666666666666
+2/3
+#[Out]# 0
+# 8. Assignment
+student_age = 16
+a = 2
+#9
+a
+#[Out]# 2
+a*3
+#[Out]# 6
+a ** 3
+#[Out]# 8
+23 ** 43
+#[Out]# 35834136918934220777541995677272642015423987712183913488967L
+# 10
+abs(-7)
+#[Out]# 7
+add_tip(5, 50)
+add_tip(5, 50)
+%run 1.3.2/Last_1.3.2.py
+%run 1.3.2/Jap_1.3.2.py
+add_tip(5, 50)
+#[Out]# 255
+#11 In the code editor you are able to type up your whole code and is useful for codes that take up more than one line. The python shell is able to check frequently for errors and if it functions properly.
+%logstop
+# Fri, 07 Dec 2018 17:14:54
+#Scratch and App inventor uses blocks to store the if and else statements. These blocks enable them to function and grouped to a certain command. 
+# Fri, 07 Dec 2018 17:17:50
+#The doctring will enable you to title or define the function and set it to what you want it to
+# Fri, 07 Dec 2018 17:18:48
+#12.Scratch and App inventor uses blocks to store the if and else statements. These blocks enable them to function and grouped to a certain command.
+# Fri, 07 Dec 2018 17:19:06
+#13. The doctring will enable you to title or define the function and set it to what you want it to
+# Fri, 07 Dec 2018 17:21:06
+#14. An advantage of destroying local variables could be to prevent errors when executing the command because if it is set to another variable there would be no need for the unused local variable to stay.
+# Fri, 07 Dec 2018 17:23:42
+#15. A compiler is kind of like a translator but faster. They interpret every line and translates it to the computer in a language it can understand.
+# Fri, 07 Dec 2018 17:24:44
+%run 1.3.2/Last_1.3.2.py
+# Fri, 07 Dec 2018 17:25:02
+%run 1.3.2/Jap_1.3.2.py
+# Fri, 07 Dec 2018 17:25:29
+add_tip(20,0.15)
+#[Out]# 23.0
+# Fri, 07 Dec 2018 17:25:43
+add_tip(30,0.15)
+#[Out]# 34.5
+# Fri, 07 Dec 2018 17:32:49
+%run 1.3.2/Jap_1.3.2.py
+# Fri, 07 Dec 2018 17:33:21
+hyp(3,4)
+#[Out]# 16.102993301316015
+# Fri, 07 Dec 2018 17:33:55
+hyp(3,4)
+#[Out]# 16.102993301316015
+# Fri, 07 Dec 2018 17:34:00
+%run 1.3.2/Jap_1.3.2.py
+# Fri, 07 Dec 2018 17:34:02
+%run 1.3.2/Last_1.3.2.py
+# Fri, 07 Dec 2018 17:34:10
+hyp(3,4)
+#[Out]# 5.0
+# Fri, 07 Dec 2018 17:35:10
+#17b. Mean Test
+# Fri, 07 Dec 2018 17:36:11
+mean(3,4,7)
+# Fri, 07 Dec 2018 17:36:19
+%run 1.3.2/Jap_1.3.2.py
+# Fri, 07 Dec 2018 17:36:24
+mean(3,4,7)
+#[Out]# 4.666666666666667
+# Fri, 07 Dec 2018 17:37:33
+%run 1.3.2/Jap_1.3.2.py
+# Fri, 07 Dec 2018 17:37:50
+#17.c Perimeter Test
+# Fri, 07 Dec 2018 17:37:59
+perimeter(3,4)
+#[Out]# 14
+# Fri, 07 Dec 2018 17:38:18
+#Conclusion:
+# Fri, 07 Dec 2018 17:39:28
+#1. I would like to have class lessons automated and maybe able to communicate with teachers outside of school. Additionally, having class taught by video would also be nice.
+# Fri, 07 Dec 2018 17:40:22
+#2. I learned about functions, floats, and integers.
+# Fri, 07 Dec 2018 17:42:31
+#3. The differences between the code editer and the ipython session is the way it interacts with the code and how much it can take in. The code editor enables you to write multiple lined code while the ipython allows you to check for the result and what is stored in the functions by testing out different values.
+# Fri, 07 Dec 2018 17:43:26
+#4 Advantages of using functions is being able to define certain variables and allowing you to test any number you want to run the function.
+# Fri, 07 Dec 2018 17:46:36
+#5 It printed all the results of the listed functions after I ran it. This is probably the last conclusion question because it summarizes and checks if all the code matches with each other and turned out to work when everything was coded.
+# Fri, 07 Dec 2018 17:46:38
+ %run 1.3.2/Jap_1.3.2.py
+# Fri, 07 Dec 2018 17:47:29
+%logstop

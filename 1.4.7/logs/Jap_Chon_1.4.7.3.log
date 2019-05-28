@@ -1,0 +1,14 @@
+# IPython log file
+
+# Thu, 07 Mar 2019 17:15:08
+cd 1.4.7
+# Thu, 07 Mar 2019 17:17:39
+cd Project_images
+# Thu, 07 Mar 2019 17:30:52
+%run ../Jap_Chon_1.4.7.py
+# Thu, 07 Mar 2019 17:31:22
+%run ../Jap_Chon_1.4.7.py
+# Thu, 07 Mar 2019 17:34:19
+%run ../Jap_Chon_1.4.7.py
+# Thu, 07 Mar 2019 17:34:36
+exit
